@@ -1,0 +1,96 @@
+#dateContainer{
+margin-top:10px;
+
+}
+/*HEADER (AKTUELLT PÅ BIO)*/
+#dateContainer .head{
+font-size: 50px;
+font-family: 'Lato', 'sans-serif';
+max-width: 970px;
+}
+
+
+/*Where all the images, auditoriums, movie-name, time, days and dates contans*/
+#dateContainer .data {
+ max-width: 970px;
+margin-top:5vh;
+color: white;
+font-family: 'Lato', 'sans-serif';
+box-shadow: 0 3px 10px rgba(134, 89, 89, 0.75);
+margin-bottom: 15px;
+border-bottom: 1px solid red ; 
+}
+
+/*The small red lines that divides the shows*/
+.line1 {
+box-shadow: 0 3px 10px rgba(134, 89, 89, 0.75);
+border-bottom: 1px solid red ;
+}
+
+/*For all the images */
+#dateContainer .imageGenerator {
+float: left;
+padding-top: 1vh;
+padding-left: 1vh;
+max-width: 85px;
+min-width: 85px;
+}
+
+/*The red bars that show the dates and days*/
+#dateContainer .p-2 {
+background-color: #881414;
+font-size: 3vh;
+font-family: 'Lato', 'sans-serif';
+}
+
+/*For the movie - texts*/
+#dateContainer .film {
+font-size: 30px;
+align-items: center;
+text-align: center;
+}
+
+/*For the auditoriums - texts*/
+#dateContainer .aud {
+font-size: 20px;
+align-items: center;
+text-align: center;
+}
+
+/*For the time - texts*/
+#dateContainer .time {
+font-size: 20px;
+margin-bottom: 1vh;
+align-items: center;
+text-align: center;
+}
+
+/*For each day*/
+#dateContainer .monday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .tuesday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .wednesday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .thursday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .friday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .saturday {
+background: rgba(0,0,0,0.9);
+}
+#dateContainer .sunday {
+background: rgba(0,0,0,0.9);
+}
+
+/*For the texts in the red bars that shows the dates and days */
+#dateContainer .headerStyle {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-right: 80%;
+}
+
